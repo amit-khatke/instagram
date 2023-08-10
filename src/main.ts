@@ -9,7 +9,7 @@ import { InstagramComponent } from './instagram/instagram.component';
   standalone: true,
   imports: [CommonModule,InstagramComponent],
   template: `
-    
+    <app-instagram></app-instagram>
   `,
 })
 export class App {
