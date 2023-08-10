@@ -1,9 +1,26 @@
-.container{
+.container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid red;
+  height: 44rem;
+  width: 94rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: red; */
+  width: 17%;
+  height: 100%;
+}
+.right {
+  display: flex;
   justify-content: center;
   align-items: center;
-  border:2px solid red;
+  background-color: blue;
+  width: 90%;
   height: 100%;
-  width: 100%;
 }
