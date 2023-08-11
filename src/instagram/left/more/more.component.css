@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  height: 40%;
+  width: 200px;
+  margin: 0 0.5rem;
+  background-color: blueviolet;
+}
